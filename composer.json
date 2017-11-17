@@ -5,7 +5,7 @@
   "license": "MIT",
   "authors": [],
   "require": {
-    "php": "^5.6|^7.0"
+    "php": "^5.6||^7.0"
   },
   "require-dev": {
     "phpspec/phpspec": "^4.0"
