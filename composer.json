@@ -1,13 +1,25 @@
 {
-  "name": "encreinformatique/resource",
-  "type": "library",
-  "description": "Basic resource interfaces for PHP applications.",
-  "license": "MIT",
-  "authors": [],
-  "require": {
-    "php": "^5.6||^7.0"
-  },
-  "require-dev": {
-    "phpspec/phpspec": "^4.0"
-  }
+    "name": "encreinformatique/resource",
+    "type": "library",
+    "description": "Basic resource interfaces for PHP applications.",
+    "keywords": ["people"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Julien Devergnies",
+            "homepage": "http://www.encre-informatique.fr"
+        }
+    ],
+    "require": {
+        "php": "^5.6||^7.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^4.0"
+    },
+    "autoload": {
+        "psr-4": { "EncreInformatique\\Component\\Resource\\": "" }
+    },
+    "autoload-dev": {
+        "psr-4": { "EncreInformatique\\Component\\Resource\\spec\\": "spec/" }
+    }
 }
