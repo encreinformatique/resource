@@ -1,5 +1,7 @@
 # Resource
 
+[![Build Status](https://travis-ci.org/encreinformatique/resource.svg?branch=master)](https://travis-ci.org/encreinformatique/resource)
+
 This repository groups a serie of common PHP traits and interfaces.
 
 ## SQLFilters

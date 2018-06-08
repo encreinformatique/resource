@@ -18,7 +18,7 @@ class CountryFilter extends SQLFilter
      */
     public function addFilterConstraint(ClassMetadata $targetEntity, $targetTableAlias)
     {
-        if ($targetEntity->getReflectionClass()->implementsInterface(CountryInterface::class)) {
+        if (!$targetEntity->getReflectionClass()->implementsInterface(CountryInterface::class)) {
             return '';
         }
 
