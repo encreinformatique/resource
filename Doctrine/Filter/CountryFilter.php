@@ -1,6 +1,6 @@
 <?php
 
-namespace EncreInformatique\Component\Doctrine\Filter;
+namespace EncreInformatique\Component\Resource\Doctrine\Filter;
 
 use Doctrine\ORM\Mapping\ClassMetadata;
 use Doctrine\ORM\Query\Filter\SQLFilter;
@@ -22,6 +22,6 @@ class CountryFilter extends SQLFilter
             return '';
         }
 
-        return sprintf('%s.country = %s, $targetTableAlias, $this->getParameter('country'));
+        return sprintf('%s.country = %s', $targetTableAlias, $this->getParameter('country'));
     }
 }
