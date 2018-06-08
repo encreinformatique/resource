@@ -1,6 +1,6 @@
 <?php
 
-namespace EncreInformatique\Component\Resource\Tests;
+namespace EncreInformatique\Component\Resource\Tests\Model;
 
 use EncreInformatique\Component\Resource\Model\CountryInterface;
 use EncreInformatique\Component\Resource\Model\CountryTrait;
