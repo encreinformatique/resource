@@ -1,0 +1,14 @@
+<phpunit bootstrap="./vendor/autoload.php" colors="true">
+    <testsuites>
+        <testsuite name="Resource suite tests">
+            <directory>./Tests</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">Doctrine</directory>
+            <directory suffix=".php">Model</directory>
+        </whitelist>
+    </filter>
+</phpunit>

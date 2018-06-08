@@ -2,6 +2,8 @@
 
 namespace EncreInformatique\Component\Resource\Model;
 
+use Doctrine\ORM\Mapping as ORM;
+
 trait CountryTrait
 {
     /**
