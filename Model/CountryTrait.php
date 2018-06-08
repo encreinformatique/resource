@@ -6,6 +6,8 @@ trait CountryTrait
 {
     /**
      * @var string
+     *
+     * @ORM\Column(name="country", type="string", length=3, nullable=false)
      */
     protected $country;
 
