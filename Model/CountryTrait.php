@@ -19,6 +19,7 @@ trait CountryTrait
     public function setCountry($country)
     {
         $this->country = $country;
+        return $this;
     }
 
     /**
