@@ -25,6 +25,7 @@ trait ToggleableTrait
     public function setEnabled($enabled)
     {
         $this->enabled = (bool)$enabled;
+        return $this;
     }
 
     public function enable()
