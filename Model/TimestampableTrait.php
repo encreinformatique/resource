@@ -28,6 +28,7 @@ trait TimestampableTrait
 
     /**
      * @param \DateTimeInterface|null $createdAt
+     * @return TimestampableInterface
      */
     public function setCreatedAt(\DateTimeInterface $createdAt)
     {
@@ -45,6 +46,7 @@ trait TimestampableTrait
 
     /**
      * @param \DateTimeInterface|null $updatedAt
+     * @return TimestampableInterface
      */
     public function setUpdatedAt(\DateTimeInterface $updatedAt)
     {
