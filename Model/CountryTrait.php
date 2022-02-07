@@ -16,10 +16,9 @@ trait CountryTrait
     /**
      * @param string $country
      */
-    public function setCountry($country)
+    public function setCountry($country): void
     {
         $this->country = $country;
-        return $this;
     }
 
     /**
