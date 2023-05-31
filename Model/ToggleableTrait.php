@@ -9,6 +9,7 @@ trait ToggleableTrait
     /**
      * @ORM\Column(name="enabled", type="boolean")
      */
+    #[ORM\Column('enabled', type: 'boolean')]
     protected $enabled = true;
 
     /**

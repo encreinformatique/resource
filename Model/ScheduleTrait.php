@@ -15,26 +15,31 @@ trait ScheduleTrait
     /**
      * @ORM\Column(name="minute", type="integer", nullable=true)
      */
+    #[ORM\Column(name: 'minute', type: 'integer', nullable: true)]
     protected $minute;
 
     /**
      * @ORM\Column(name="hour", type="integer", nullable=true)
      */
+    #[ORM\Column(name: 'hour', type: 'integer', nullable: true)]
     protected $hour;
 
     /**
      * @ORM\Column(name="month", type="integer", nullable=true)
      */
+    #[ORM\Column(name: 'month', type: 'integer', nullable: true)]
     protected $month;
 
     /**
      * @ORM\Column(name="day_of_week", type="integer", nullable=true)
      */
+    #[ORM\Column(name: 'day_of_week', type: 'integer', nullable: true)]
     protected $dayOfWeek;
 
     /**
      * @ORM\Column(name="day_of_month", type="integer", nullable=true)
      */
+    #[ORM\Column(name: 'day_of_month', type: 'integer', nullable: true)]
     protected $dayOfMonth;
 
     /**
