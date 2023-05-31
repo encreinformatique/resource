@@ -10,12 +10,14 @@ trait TimestampableTrait
      * @var \DateTimeInterface|null
      * @ORM\Column(name="created_at", type="datetime")
      */
+    #[ORM\Column('created_at', type: 'datetime')]
     protected $createdAt;
 
     /**
      * @var \DateTimeInterface|null
      * @ORM\Column(name="updated_at", type="datetime", nullable=true)
      */
+    #[ORM\Column('updated_at', type: 'datetime', nullable: true)]
     protected $updatedAt;
 
     /**
