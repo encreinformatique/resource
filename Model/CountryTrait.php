@@ -11,6 +11,7 @@ trait CountryTrait
      *
      * @ORM\Column(name="country", type="string", length=3, nullable=false)
      */
+    #[ORM\Column('country', type: 'string', length: 3, nullable: false)]
     protected $country;
 
     /**
